@@ -1,0 +1,26 @@
+{
+  "name": "sol-keypair",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@digitak/esrun": "^3.2.25",
+    "@solana-developers/node-helpers": "^1.0.4",
+    "@solana/web3.js": "^1.87.3",
+    "bigint-buffer": "^1.1.5",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
